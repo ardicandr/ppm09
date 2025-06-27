@@ -46,7 +46,7 @@
                 @php
                     $message = "*Pesanan Produk: {$product['name']}*\n\n*Deskripsi:*\n{$product['desc']}\n\nSaya tertarik, mohon info lebih lanjut. Terima kasih.";
                 @endphp
-                <a href="https://wa.me/6287725527550?text={{ rawurlencode($message) }}" target="_blank" class="btn btn-primary">
+                <a href="https://wa.me/6281234567890?text={{ rawurlencode($message) }}" target="_blank" class="btn btn-primary">
                     Pesan Sekarang
                 </a>
             </div>
